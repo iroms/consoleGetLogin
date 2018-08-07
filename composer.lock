@@ -4,8 +4,41 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f08283e88bd9a0d410da7b13665d2d95",
+    "content-hash": "14e5ba5e3cc3693fbd8941388d7c41ac",
     "packages": [
+        {
+            "name": "iroms/getlogin",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iroms/getLogin.git",
+                "reference": "5a80a0944e56421b0b2d33d58053afc60b093c9a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iroms/getLogin/zipball/5a80a0944e56421b0b2d33d58053afc60b093c9a",
+                "reference": "5a80a0944e56421b0b2d33d58053afc60b093c9a",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "iroms\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "roman",
+                    "email": "arvl@bk.ru"
+                }
+            ],
+            "description": "for Otus, exec 2-8",
+            "time": "2018-08-05T11:39:35+00:00"
+        },
         {
             "name": "iroms/sum",
             "version": "1.0.1",

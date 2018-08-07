@@ -1,7 +1,8 @@
 {
     "require": {
         "symfony/console": "^4.1",
-        "iroms/sum": "^1.0"
+        "iroms/sum": "^1.0",
+        "iroms/getlogin": "^1.0"
     },
     "autoload": {
         "psr-4": {
